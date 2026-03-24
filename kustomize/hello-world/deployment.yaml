@@ -6,11 +6,11 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      deployment: hello
+      app: hello
   template:
     metadata:
       labels:
-        deployment: hello
+        app: hello
     spec:
       containers:
         - name: the-container
