@@ -1,6 +1,8 @@
 name: <+stage.variables.resourceNamePrefix>
 replicas: 1
 
+image: nginx
+
 createNamespace: true
 #namespace: ${infra.kubernetes.namespace}
 namespace: <+infra.namespace>
