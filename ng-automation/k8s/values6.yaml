@@ -1,7 +1,7 @@
 name: constant
 replicas: 1
 
-image: alpine
+image: alpine:latest
 
 createNamespace: true
 #namespace: ${infra.kubernetes.namespace}
